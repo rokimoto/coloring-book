@@ -1,0 +1,222 @@
+body {
+  text-align: center;
+}
+
+.paints {
+  margin: 36px 0;
+}
+
+.reset {
+  float: right;
+  margin-top: 30px;
+}
+
+.reset img {
+  height: 50px;
+}
+
+.red {
+  fill: #ff0000;
+}
+
+.yellow {
+  fill: #ffeb33;
+}
+
+.blue {
+  fill: #2d81c2;
+}
+
+.white {
+  fill: #ffffff;
+}
+
+.pink {
+  fill: #f5c8df;
+}
+
+.brown {
+  fill: #762919;
+}
+
+.green{
+  fill: #39b54a;
+}
+
+.purple {
+  fill: #7044a0;
+}
+
+.orange {
+  fill: #f7931e;
+}
+
+.red-temp {
+  fill: #ff0000 !important;
+}
+
+.yellow-temp {
+  fill: #ffeb33 !important;
+}
+
+.blue-temp {
+  fill: #2d81c2 !important;
+}
+
+.white-temp {
+  fill: #ffffff !important;
+}
+
+.pink-temp {
+  fill: #f5c8df !important;
+}
+
+.brown-temp {
+  fill: #762919 !important;
+}
+
+.purple-temp {
+  fill: #7044a0 !important;
+}
+
+.green-temp {
+  fill: #39b54a !important;
+}
+
+.orange-temp {
+  fill: #f7931e !important;
+}
+
+.bucket {
+  height: 44px;
+  width: 44px;
+  background-size: 100%;
+  display: inline-block;
+  background-position: cover;
+  background-repeat: no-repeat;
+}
+
+.red-bucket {
+  background-image: url(../img/paint-up-red.svg);
+}
+
+.bucket-tip-red {
+  background-image: url(../img/paint-tilt-red.svg);
+}
+
+.yellow-bucket {
+  background-image: url(../img/paint-up-yellow.svg);
+}
+
+.bucket-tip-yellow {
+  background-image: url(../img/paint-tilt-yellow.svg);
+}
+
+.blue-bucket {
+  background-image: url(../img/paint-up-blue.svg);
+}
+
+.bucket-tip-blue {
+  background-image: url(../img/paint-tilt-blue.svg);
+}
+
+.white-bucket {
+  background-image: url(../img/paint-up-white.svg);
+}
+
+.bucket-tip-white {
+  background-image: url(../img/paint-tilt-white.svg);
+}
+
+.pink-bucket {
+  background-image: url(../img/paint-up-pink.svg);
+}
+
+.bucket-tip-pink {
+  background-image: url(../img/paint-tilt-pink.svg);
+}
+
+.brown-bucket {
+  background-image: url(../img/paint-up-brown.svg);
+}
+
+.bucket-tip-brown {
+  background-image: url(../img/paint-tilt-brown.svg);
+}
+
+.purple-bucket {
+  background-image: url(../img/paint-up-purple.svg);
+}
+
+.bucket-tip-purple {
+  background-image: url(../img/paint-tilt-purple.svg);
+}
+
+.green-bucket {
+  background-image: url(../img/paint-up-green.svg);
+}
+
+.bucket-tip-green {
+  background-image: url(../img/paint-tilt-green.svg);
+}
+
+.orange-bucket {
+  background-image: url(../img/paint-up-orange.svg);
+}
+
+.bucket-tip-orange {
+  background-image: url(../img/paint-tilt-orange.svg);
+}
+
+#hellokitty {
+  height: 500px;
+  width: 468px;
+}
+
+#kirby-mario {
+  height: 380px;
+  width: 468px ;
+}
+
+#kirby-mario {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#pikachu {
+  height: 500px;
+  width: 468px;
+}
+
+.container {
+  display: inline-block;
+}
+
+.image-border {
+  border: 5px solid black;
+  display: inline-block;
+  padding: 30px;
+  margin-bottom: 100px;
+}
+
+.reset, .image-thumb-box img {
+  cursor: pointer;
+}
+
+#kirby-img, #pikachu-img {
+  display: none;
+}
+
+.image-thumb-box {
+  display: inline-block;
+}
+
+.image-thumb-box img {
+  height: 100px;
+  width: 100px;
+  border: 3px solid black;
+  padding: 10px;
+  margin-top: 50px;
+  display: block;
+  margin-left: 50px;
+}
